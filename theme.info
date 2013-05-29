@@ -1,0 +1,20 @@
+; Base
+name = theme name MUST
+description = theme description MUST
+core = 7.x RECOMMENDED
+
+; CSS
+stylesheets[all][] = [theme root folder] css/styles.css OPTIONAL
+
+;JS
+scripts[] = [theme root folder] js/jquery.js OPTIONAL
+
+; regions
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[content] = Content
